@@ -95,7 +95,7 @@ body.menu-open {
 }
 
 #hero {
-    min-height: 90vh;
+    min-height: 100vh;
     width: 100vw;
     padding-top: 80px;
     background-image: linear-gradient(rgba(93, 90, 90, 0.4), rgba(93, 92, 92, 0.2)), url(./img/banner.png);
@@ -107,6 +107,7 @@ body.menu-open {
     align-items: center;
     justify-content: center;
     text-align: center;
+     background-attachment: fixed; 
 }
 
 section {
@@ -128,12 +129,11 @@ section {
     text-align: justify;
 }
 
-.img
+.about .img
 {
-    width: 90%;
+    width: 80%;
     height: 85vh;
     border-radius: 10px;
-
 }
 .skill-card {
             min-height: 200px;
@@ -176,8 +176,26 @@ section {
             margin-bottom: 10px;
             display: block;
         }
-.verstion{
-    margin-top: 15px;
-    margin-bottom: 10px;
+
+@media screen and (max-width: 980px) {
+   #about .img{
+      width: 100%;
+      height: 110vh;
+      margin-right: 50px;
+  }
+  #about h2{
+    font-size: 30px;
+  }
+  #about h3{
+    font-size: 30px;
+  }
+   #about p{
+    font-size: 15px;
+  }
+
+  .verstion
+  {
+    margin-top: 22px;
+  }
+
 }
-/* responsive  section */
