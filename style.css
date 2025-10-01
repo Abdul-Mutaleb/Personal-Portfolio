@@ -199,3 +199,61 @@ section {
   }
 
 }
+
+@media screen and (max-width: 480px)
+{
+    .navbar-brand {
+    margin-left: 50px;
+    font-size: 1rem;
+    }
+
+    .navbar-toggler.custom-toggler {  
+    font-size: 1rem; 
+    margin-right: 70px; 
+    }
+
+    #hero h1{
+        font-display: 0;
+        font-size: 30px;
+    }
+     #hero p{
+        font-display: 0;
+        font-size: 17px;
+    }
+    #hero .btn-lg{
+        font-size: 0.70rem;
+    }
+
+    #about .img{
+      width: 100%;
+      height: 120vh;
+      padding: 25px;
+      border-radius: 40px;
+  }
+
+  #about h2
+  {
+    text-align: center;
+  }
+  #about h3
+  {
+    text-align: center;
+  }
+  #about .lead
+  {
+    text-align: center;
+    text-align: justify;
+  }
+
+  #about p
+  {
+    text-align: center;
+  }
+  #about .btn
+  {
+    display: flex;
+    justify-content: center;
+    margin: 145px;
+    font-size: 0.90rem;
+  }
+}
