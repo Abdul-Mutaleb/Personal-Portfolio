@@ -6,7 +6,7 @@ body {
     background-color: #f8f9fa;
     overflow-x: hidden;
 }
-
+/*------- navbar design ----------------*/
 .navbar-toggler.custom-toggler {
     border: none; 
     font-size: 1.5rem; 
@@ -92,7 +92,7 @@ body.menu-open {
 .nav-link:hover {
     color: #fff !important;
 }
-
+/*------- hero section design ----------------*/
 #hero {
     min-height: 100vh;
     width: 100vw;
@@ -175,7 +175,41 @@ section {
     display: block;
 }
 
-/* ✅ Responsive Design */
+.card2{
+  background-color: #fb8a2e;
+}
+.card h3{
+  font-size: 15px;
+}
+
+.card h5{
+  font-size: 23px;
+}
+.card p{
+  font-size: 14px;
+  color: #ddd;
+}
+
+ .education-info h4 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.education-info {
+  padding: 13em 0em;
+}
+
+
+
+
+/* Responsive Design */
 @media screen and (max-width: 980px) {
    #about .img {
       width: 100%;
@@ -244,6 +278,7 @@ section {
   }
   #about h3 {
     font-size: 14px;
+
   }
   #about .lead {
     font-size: 12px;
